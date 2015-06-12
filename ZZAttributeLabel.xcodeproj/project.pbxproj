@@ -14,6 +14,7 @@
 		E4E1F2CA1B29BF18005D0754 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4E1F2C91B29BF18005D0754 /* Images.xcassets */; };
 		E4E1F2CD1B29BF18005D0754 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4E1F2CB1B29BF18005D0754 /* LaunchScreen.xib */; };
 		E4E1F2D91B29BF18005D0754 /* ZZAttributeLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E1F2D81B29BF18005D0754 /* ZZAttributeLabelTests.m */; };
+		E4E1F2E61B29BF58005D0754 /* UILabel+ZZAtributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E1F2E51B29BF58005D0754 /* UILabel+ZZAtributedLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		E4E1F2D21B29BF18005D0754 /* ZZAttributeLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZAttributeLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E1F2D71B29BF18005D0754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4E1F2D81B29BF18005D0754 /* ZZAttributeLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZAttributeLabelTests.m; sourceTree = "<group>"; };
+		E4E1F2E41B29BF58005D0754 /* UILabel+ZZAtributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ZZAtributedLabel.h"; sourceTree = "<group>"; };
+		E4E1F2E51B29BF58005D0754 /* UILabel+ZZAtributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ZZAtributedLabel.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		E4E1F2BB1B29BF18005D0754 /* ZZAttributeLabel */ = {
 			isa = PBXGroup;
 			children = (
+				E4E1F2E21B29BF50005D0754 /* Class */,
 				E4E1F2C01B29BF18005D0754 /* AppDelegate.h */,
 				E4E1F2C11B29BF18005D0754 /* AppDelegate.m */,
 				E4E1F2C31B29BF18005D0754 /* ViewController.h */,
@@ -117,6 +121,23 @@
 				E4E1F2D71B29BF18005D0754 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4E1F2E21B29BF50005D0754 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				E4E1F2E31B29BF58005D0754 /* ZZAttributeLabel */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		E4E1F2E31B29BF58005D0754 /* ZZAttributeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				E4E1F2E41B29BF58005D0754 /* UILabel+ZZAtributedLabel.h */,
+				E4E1F2E51B29BF58005D0754 /* UILabel+ZZAtributedLabel.m */,
+			);
+			path = ZZAttributeLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +242,7 @@
 			files = (
 				E4E1F2C51B29BF18005D0754 /* ViewController.m in Sources */,
 				E4E1F2C21B29BF18005D0754 /* AppDelegate.m in Sources */,
+				E4E1F2E61B29BF58005D0754 /* UILabel+ZZAtributedLabel.m in Sources */,
 				E4E1F2BF1B29BF18005D0754 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
